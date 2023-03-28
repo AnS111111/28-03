@@ -1,0 +1,31 @@
+
+
+.header_container {
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(141, 118, 226);
+
+    display: flex;
+    justify-content: center;
+}
+.header_content {
+    max-width: 1200px;
+    background-color: rgb(192, 238, 223);
+
+    display: flex;
+    flex: 1;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu_items {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
+}
+.logo {
+    max-width: 200px;
+}
